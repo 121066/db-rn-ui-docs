@@ -1,0 +1,39 @@
+# ==========================================
+# 通用 Git 忽略（Monorepo 根目录通用）
+# ==========================================
+node_modules/
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.idea/
+.vscode/
+*.log
+tmp/
+temp/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# ==========================================
+# 专门给 docs/ (Next.js) 忽略
+# ==========================================
+docs/.next/
+docs/out/
+docs/node_modules/
+docs/.env
+docs/.env.local
+docs/.turbo/
+docs/next-env.d.ts
+
+# ==========================================
+# 包目录（packages/*）通用忽略
+# ==========================================
+packages/**/node_modules/
+packages/**/dist/
+packages/**/build/
+packages/**/.turbo/
+packages/**/.env

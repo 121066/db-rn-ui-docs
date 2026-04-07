@@ -1,0 +1,49 @@
+{
+    "name": "docs",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev -p 3006",
+        "build": "next build ",
+        "build:pro": "next build || true",
+        "start": "next start -p 3005",
+        "lint": "next lint",
+        "postinstall": "patch-package && node scripts/fix-styled-jsx.js",
+        "patch": "patch-package",
+        "postinstallDir": "patch-package --patch-dir patches"
+    },
+    "dependencies": {
+        "@expo/vector-icons": "^15.0.3",
+        "@mdx-js/loader": "^2.3.0",
+        "@mdx-js/react": "^2.3.0",
+        "@next/mdx": "^13.4.19",
+        "@next/swc-darwin-arm64": "13.4.19",
+        "db-rn-ui": "1.0.0",
+        "next": "13.4.19",
+        "prism-react-renderer": "^2.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-native-safe-area-context": "^4.12.0",
+        "react-native-vector-icons": "^10.0.0",
+        "react-native-web": "^0.19.13",
+        "react-native-web-linear-gradient": "^1.1.2",
+        "styled-jsx": "^5.1.1"
+    },
+    "devDependencies": {
+        "@babel/preset-typescript": "^7.28.5",
+        "@types/node": "^20.0.0",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "@types/react-native-web": "^0.19.2",
+        "autoprefixer": "^10.4.0",
+        "eslint": "^8.0.0",
+        "eslint-config-next": "13.4.19",
+        "ignore-loader": "^0.1.2",
+        "patch-package": "^8.0.1",
+        "postcss": "^8.4.0",
+        "postinstall-postinstall": "^2.1.0",
+        "string-replace-loader": "^3.3.0",
+        "tailwindcss": "^3.3.0",
+        "typescript": "^5.0.0"
+    }
+}
