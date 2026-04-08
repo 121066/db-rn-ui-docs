@@ -1,4 +1,4 @@
-# db-rn-ui Docs
+<img width="741" height="459" alt="image" src="https://github.com/user-attachments/assets/3cdf782b-480e-4c46-bcc8-1d0dc25d0dce" /># db-rn-ui Docs
 
 🚀 基于 Next.js 构建的 **db-rn-ui** React Native UI 组件库官方文档站
 
@@ -17,3 +17,8 @@ db-rn-ui 是一款面向 React Native 开发者的移动端 UI 组件库，提�
 - Next.js 14+
 - TypeScript
 - Tailwind CSS
+## 安装
+```
+npm install --ignore-scripts
+npm run build 
+```
